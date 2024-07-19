@@ -83,8 +83,12 @@ public class Main {
       System.out.println("Width is: " + width);
       System.out.println("Area of the rectangle is: " + area);
 
-      
 
+      float myNum11 = 5.75f;
+      System.out.println(myNum11);
+
+      double myNum12 = 19.99d;
+      System.out.println(myNum12);
 
 
     }
