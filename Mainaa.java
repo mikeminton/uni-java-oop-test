@@ -25,10 +25,48 @@ public class Mainaa {
         float percentage = (float) userScore / maxScore * 100.0f;
 
         System.out.println("User's percentage is " + percentage);
+
+        int sum1 = 100 + 50;     // 150 (100 + 50)
+        int sum2 = sum1 + 250;   // 400 (150 + 250)
+        int sum3 = sum2 + sum2;  // 800 (400 + 400)
+        System.out.println(sum1);
+        System.out.println(sum2);
+        System.out.println(sum3);        
+            
+        int x = 5;
+        int y = 3;
+        System.out.println(x > y);  // returns true, because 5 is higher than 3
         
-    
-    
-    
-    
+        // string functions
+        String txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+        System.out.println("The length of the txt string is: " + txt.length());
+
+        txt = "Hello World";
+        System.out.println(txt.toUpperCase());  // Outputs "HELLO WORLD"
+        System.out.println(txt.toLowerCase());  // Outputs "hello world"
+        
+        txt = "Please locate where 'locate' occurs!";
+        System.out.println(txt.indexOf("locate"));  // Outputs 7
+        
+        String firstName = "John";
+        String lastName  = "Doe";
+        System.out.println(firstName + " " + lastName);
+        System.out.println(firstName.concat(lastName));
+
+        txt = "We are the so-called \"Vikings\" from the north.";
+        System.err.println(txt);
+        txt = "It\'s alright.";
+        System.err.println(txt);
+        txt = "The character \\ is called backslash.";
+        System.err.println(txt);
+
+
+
+
+
+
+
+
+
     }
 }
