@@ -130,7 +130,18 @@ public class Main {
         if (args.length > 0) {
             System.out.println("First argument: " + args[0]);
         }
+         
 
+        // clear the screen
+        myfUtils.clearScreen();
 
+        int sum = myfUtils.addNumbers(5, 3);
+        System.out.println("Sum of 5 and 3 is: " + sum);
+
+        if (myfUtils.isEven(sum)) {
+            System.out.println(sum + " is even.");
+        } else {
+            System.out.println(sum + " is odd.");
+        }
     }
 }
