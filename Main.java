@@ -92,8 +92,10 @@ public class Main {
 
         float  f1 = 35e3f;
         double d1 = 12E4d;
+        float c1 = 10.87f;
         System.out.println(f1);
         System.out.println(d1);
+        System.out.println(c1);
         //#endregion#
 
 
