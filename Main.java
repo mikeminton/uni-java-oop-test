@@ -114,10 +114,10 @@ public class Main {
         System.out.println(greeting);
 
         // Create variables of different data types
-        int items = 50;
+        int   items       = 50;
         float costPerItem = 9.99f;
-        float totalCost = items * costPerItem;
-        char currency = '$';
+        float totalCost   = items * costPerItem;
+        char  currency    = '$';
 
         // Print variables
         System.out.println("Number of items: " + items);
@@ -128,7 +128,7 @@ public class Main {
         if (args.length > 0) {
             System.out.println("First argument: " + args[0]);
         }
-        
+
 
     }
 }
