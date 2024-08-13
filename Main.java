@@ -149,7 +149,7 @@ public class Main {
         Employee employee1 = new Employee("E001", "John Johns", "Education", "Teacher", 50000);
         Employee employee2 = new Employee("E002", "Sarah Smith", "Administration", "Principal", 75000);
 
-        // Displaying employee information
+          // Displaying employee information
         employee1.displayInfo();
         System.out.println();  // Adding a blank line for better readability
         employee2.displayInfo();
