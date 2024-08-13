@@ -124,5 +124,11 @@ public class Main {
         System.out.println("Cost per item: " + costPerItem + currency);
         System.out.println("Total cost = " + totalCost + currency);
 
+        System.out.println("Sent arguments to the main method: " + args.length);
+        if (args.length > 0) {
+            System.out.println("First argument: " + args[0]);
+        }
+        
+
     }
 }
